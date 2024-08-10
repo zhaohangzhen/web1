@@ -31,6 +31,7 @@ def page1():
     music(1)
     st.write('我有三个，一个个看吧')
     tab1, tab2, tab3 = st.tabs(['第一个推存', '第二个推存', '第三个推存'])
+    st.write('测试')
     
     with tab1:
         st.write('第一个，那肯定是编程猫')
